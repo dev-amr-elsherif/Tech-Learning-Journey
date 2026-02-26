@@ -25,8 +25,8 @@ In this specific project, I am strictly applying the **MVC (Model-View-Controlle
 
 _Check off each video upon completion and code implementation._
 
-- [ ] **01.** Intro Getx
-- [ ] **02.** Route management
+- [x] **01.** Intro Getx
+- [x] **02.** Route management
 - [ ] **03.** MVC Design Pattern with GetX
 - [ ] **04.** State management ( Getx - GetBuilder - Obx )
 - [ ] **05.** GetBuilder And GetX in Deep
@@ -52,7 +52,8 @@ _Check off each video upon completion and code implementation._
 
 _(This section is reserved for quick notes, important commands, or specific code snippets I want to remember later.)_
 
-- **Routing:** `Get.to()`, `Get.off()`, `Get.offAll()`
+- **Routing Methods:** `Get.to()`, `Get.off()`, `Get.offAll()`, `Get.toNamed()`
+- **Routing Best Practice (Memory Management):** Always use a callback when navigating (e.g., `Get.to(() => const PageTwo())`) instead of passing the widget directly (`Get.to(PageTwo())`). This enables lazy loading, ensuring GetX controllers are properly initialized when needed and disposed of when leaving the page, which prevents memory leaks.
 - **State Management:** Obx is reactive, GetBuilder is for simple state updates (requires `update()`).
 - _(More notes to be added as I progress...)_
 
