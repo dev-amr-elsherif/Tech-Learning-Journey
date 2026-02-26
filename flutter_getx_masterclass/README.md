@@ -27,8 +27,8 @@ _Check off each video upon completion and code implementation._
 
 - [x] **01.** Intro Getx
 - [x] **02.** Route management
-- [ ] **03.** MVC Design Pattern with GetX
-- [ ] **04.** State management ( Getx - GetBuilder - Obx )
+- [x] **03.** MVC Design Pattern with GetX
+- [x] **04.** State management ( Getx - GetBuilder - Obx )
 - [ ] **05.** GetBuilder And GetX in Deep
 - [ ] **06.** Dependency Injection ( Get.put - Get.find - Get.lazyPut )
 - [ ] **07.** Dependency Injection ( Bindings )

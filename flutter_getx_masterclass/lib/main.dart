@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_getx_masterclass/view/home.dart';
-import 'package:flutter_getx_masterclass/view/pageone.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -15,19 +14,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme:
-            ColorScheme.fromSeed(
-              seedColor:
-                  Colors.deepPurple,
-            ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Home(),
-      getPages: [
-        GetPage(
-          name: "/pageone",
-          page: () => const PageOne(),
-        ),
-      ],
+      home: const HomePage(),
     );
   }
 }
