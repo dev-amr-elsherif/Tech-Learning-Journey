@@ -1,6 +1,6 @@
 # 🚀 Tech Learning Journey
 
-Welcome to my **Tech Learning Journey** repository! 👋 I'm **Amr Fathy Elsherif (Sherif)**.
+Welcome to my **Tech Learning Journey** repository! 👋 I'm **Amr F. Elsherif (Sherif)**.
 
 This repository serves as a centralized, structured vault for my continuous learning in software engineering and mobile development. Rather than scattering small tutorial projects across my GitHub profile, I use this monorepo to document code snippets, practice structured architecture, and store project implementations from various technical short courses and tutorials.
 
@@ -53,4 +53,4 @@ While this repository focuses on focused skill-building and concepts, you can ch
 
 ---
 
-> *"Continuous learning is the minimum requirement for success in any field."* > **— Amr Fathy Elsherif (Sherif)** 🚀
+> *"Continuous learning is the minimum requirement for success in any field."* > **— Amr F. Elsherif (Sherif)** 🚀
